@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+
+    <Button
+        android:id="@+id/logoutBtn"
+        android:layout_width="90px"
+        android:layout_height="70px"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="10px"
+        android:layout_marginLeft="910px"
+        android:background="@drawable/logout"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="match_parent"
+        android:layout_marginTop="60px"
+        android:layout_height="200dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="sans-serif"
+        android:src="@drawable/icon"
+        android:textAlignment="center"
+        android:textColor="@color/iconblue"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="50px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Admin "
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="@color/iconblue"
+        android:paddingBottom="20dp" />
+
+    <GridLayout
+        android:layout_marginTop="180px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:rowCount="2"
+        android:alignmentMode="alignMargins"
+        android:rowOrderPreserved="false"
+        android:layout_gravity="center">
+
+        <Button
+            android:id="@+id/userBtn"
+            android:layout_width="0dp"
+            android:layout_height="160px"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:textSize="55px"
+            android:text="USERS"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/iconblue" />
+
+        <Button
+            android:id="@+id/productsBtn"
+            android:layout_width="0dp"
+            android:layout_height="160px"
+            android:layout_margin="8dp"
+            android:textSize="55px"
+            android:layout_columnWeight="1"
+            android:text="PRODUCTS"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/iconblue" />
+        <Button
+            android:id="@+id/ordersBtn"
+            android:layout_width="0dp"
+            android:layout_height="160px"
+            android:layout_margin="8dp"
+            android:textSize="55px"
+            android:layout_columnWeight="1"
+            android:text="ORDERS"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/iconblue" />
+
+        <Button
+            android:id="@+id/feedbackBtn"
+            android:layout_width="0dp"
+            android:layout_height="160px"
+            android:layout_margin="8dp"
+            android:layout_columnWeight="1"
+            android:textSize="55px"
+            android:text="FEEDBACKS"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/iconblue" />
+
+    </GridLayout>
+    <!-- Footer Section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280px"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+
+
+
+        <!-- Copyright and Contact Information -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© 2024 Dog Nutrition"
+            android:textColor="@color/iconblue"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact us at: info@dognutrition.com"
+            android:textColor="@color/iconblue"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Developed By: xCode11_"
+            android:textColor="@color/iconblue"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

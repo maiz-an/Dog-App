@@ -1,0 +1,147 @@
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/icon" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DOG NUTRITION"
+                android:textColor="@color/iconblue"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif"
+                android:textAlignment="center"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Educational Content"
+            android:textColor="@color/iconblue"
+            android:fontFamily="sans-serif"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Section: How to Care for a Dog -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to Care for a Dog"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:src="@drawable/dog_care"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Taking care of a dog involves regular vet visits, proper grooming, and ensuring your dog gets enough exercise and attention. It's important to be aware of your dog's specific needs based on breed and age."
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- YouTube link for more information -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Watch Care Video"
+            android:onClick="openCareVideo" />
+
+        <!-- Section: How to Feed a Dog -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to Feed a Dog"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:src="@drawable/dog_feeding"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feeding your dog the right food in appropriate portions is crucial for their health. Different breeds and life stages have specific dietary requirements, so it's important to provide balanced nutrition."
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- YouTube link for more information -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Watch Feeding Video"
+            android:onClick="openFeedingVideo" />
+
+        <!-- Section: How to Train a Dog -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to Train a Dog"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:src="@drawable/dog_training"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Training your dog is essential for a happy and well-behaved pet. Start with basic commands, positive reinforcement, and patience. Training not only helps with obedience but also strengthens your bond."
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- YouTube link for more information -->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Watch Training Video"
+            android:onClick="openTrainingVideo" />
+
+    </LinearLayout>
+
+</ScrollView>

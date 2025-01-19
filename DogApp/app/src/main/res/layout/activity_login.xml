@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/white">
+
+
+    <ImageView
+        android:layout_marginTop="50px"
+        android:id="@+id/logoImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DOG NUTRITION"
+        android:textColor="@color/iconblue"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/iconblue"
+        android:textStyle="normal"
+        android:fontFamily="sans-serif"
+        android:textAlignment="center"
+        android:layout_marginBottom="10px"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:hint="Email"
+        android:textColor="@color/iconblue"
+        android:layout_marginBottom="5px"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:hint="Password"
+        android:layout_marginBottom="55px"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="170px"
+        android:backgroundTint="@color/iconblue"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="5px"
+        android:text="LOGIN" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:textAlignment="center"
+        android:gravity="center_vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="99px">
+
+        <TextView
+            android:layout_marginLeft="60px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Don't have an Account? "
+            android:textAlignment="textStart"
+            android:textColor="@color/iconblue"
+            android:textSize="20dp"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/signUpBtn"
+            android:layout_width="299px"
+            android:layout_height="170px"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:text="SIGN UP"
+            android:textSize="40px"
+            android:textColor="@color/iconblue"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0px"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <!-- Social Media Icons -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/facebookIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/facebook"
+                android:layout_margin="8dp"
+                android:onClick="openFacebookLink" />
+
+            <ImageView
+                android:id="@+id/twitterIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/twitter"
+                android:layout_margin="8dp"
+                android:onClick="openTwitterLink" />
+
+            <ImageView
+                android:id="@+id/instagramIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/instagram"
+                android:layout_margin="8dp"
+                android:onClick="openInstagramLink" />
+        </LinearLayout>
+
+        <!-- Copyright and Contact Information -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="© 2024 Dog Nutrition"
+            android:textColor="@color/iconblue"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact us at: info@dognutrition.com"
+            android:textColor="@color/iconblue"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
